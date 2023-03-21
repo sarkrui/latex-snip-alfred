@@ -1,0 +1,14 @@
+"name","express"
+"fig","(see \hyperref[fig:]{Fig. \ref{fig:}})"
+"chaplabel","\hyperref[chap:tag]{Chap}"
+"link","{\href{https://}{(LINK)}"
+"subfigure","\begin{figure}[!htb]
+\centering
+\subcaptionbox{Cap 1.\label{sfig:cap1} Available at \href{https://LINK}{<LINKNAME>}}{\includegraphics[trim={0 0 0 0},clip,width=\textwidth]{[PATH]}}
+\subcaptionbox{Cap 2.\label{sfig:cap2} Available at \href{https://LINK}{<LINKNAME>}}{\includegraphics[trim={0 0 0 0},clip,width=\textwidth]{[PATH]}}
+\caption[The making tool and exemplifying application of \textit{StrainStrokes}]{\label{fig:strainstrokes} The making tool and exemplifying application of \textit{StrainStrokes}. (a) a simple web application that offers parameters to customize the specifications of the strain sensor. (b) an example of how a stain sensor might be used.}
+\end{figure}"
+"figure","\begin{figure}[!htb]
+\includegraphics[trim={0 0 0 0},clip,width=\textwidth]{[PATH]}
+\caption[The evolvement of \textit{CapSenseBand}]{\label{fig:teaser} Caption Name}
+\end{figure}"
